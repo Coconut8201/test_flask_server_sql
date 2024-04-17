@@ -9,7 +9,7 @@ https://ithelp.ithome.com.tw/articles/10272193
 
 登錄 mysql
    mysql -u root -p
-
+   密碼: password
 添加遠程登錄用戶
    CREATE USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
    GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
