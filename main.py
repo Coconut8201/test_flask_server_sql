@@ -51,7 +51,7 @@ def add_sqldata_video_input(user_id: str, video_path: str):
 # @authorize_and_log
 def upload_file():
     """
-    Upload a .mp4 file to the server.
+    Upload a .mp4 file to the server. file = request.files['file']
     
     @param {string} user_id - The ID of the user uploading the file.
     
